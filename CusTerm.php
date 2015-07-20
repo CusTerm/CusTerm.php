@@ -1,3 +1,4 @@
+ 
 <?php
 #!/usr/bin/php
 /***********************************/
@@ -11,7 +12,7 @@
 /**Coded By Insayd (c) 2015**/
 /**CusTerm**/
 /*
-    {yazılımın adını ve ne yaptığını anlatan bir satır.}
+/*CusTerm for customize your terminal
 
     Copyright (C) 2015 insayd
 
@@ -21,7 +22,7 @@
 
     You should have received a copy of the GNU General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
-
+*/
 ###############################################################
 //NICK MODE SETTINGS
 $ne="custom"; #OPTIONS <custom> or <standard>
@@ -90,7 +91,7 @@ echo"php CusTerm.php --help\n";
 }
 else
 {
-	$dosya_adi = "/root/.bashrc";
+ $dosya_adi = "/root/.bashrc";
 $dosya = fopen ($dosya_adi , 'w') or die ("Dosya
 açılamadı!");
 $metin = "php CusTerm.php";
@@ -114,3 +115,6 @@ echo "\n\n\n\nYour figlet packet is not found, we should download and install it
 
 
 ?>
+
+
+ 
